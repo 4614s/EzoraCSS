@@ -26,6 +26,7 @@ button {
   padding: 8px 12px;
   margin: 5px;
   transition: transform 0.2s;
+  color: white;
 }
 
 button:hover {
