@@ -20,17 +20,18 @@ a:hover {
 }
 
 button {
-  background: #48D1CC;
-  border: 2px solid blue;
+  background: #20B2AA;
+  border: none;
   border-radius: 5px;
-  padding: 8px 12px;
+  padding: 10px 16px;
   margin: 5px;
   transition: transform 0.2s;
   color: #e5e5e5;
+  box-shadow: 0 2px 5px black;
 }
 
 button:hover {
-  background: #20B2AA;
+  background: #48d1ccbb;
 }
 
 button:active {
