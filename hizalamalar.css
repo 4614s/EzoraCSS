@@ -1,0 +1,42 @@
+.ortala {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 15px;
+}
+
+.hizala {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.sola-hizala {
+  text-align: left;
+  justify-content: flex-start;
+}
+
+.saga-hizala {
+  text-align: right;
+  justify-content: flex-end;
+}
+
+
+.dikey-sola {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.dikey-orta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.dikey-saga {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
