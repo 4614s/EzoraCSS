@@ -39,9 +39,10 @@ button:active {
 }
 
 input {
+ background: #121212;
  border: 2px solid #48d1ccbb;
  border-radius: 4px;
- padding: 10px;
+ padding: 5px;
  margin: 5px;
  box-shadow: 0 2px 5px black;
 }
