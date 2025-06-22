@@ -37,3 +37,34 @@ button:hover {
 button:active {
   transform: scale(0.9);
 }
+
+input {
+ border: 2px solid #48d1ccbb;
+ border-radius: 4px;
+ padding: 10px;
+ margin: 5px;
+ box-shadow: 0 2px 5px black;
+}
+
+input::placeholder {
+ color: #e5e5e5;
+}
+
+input:focus {
+ outline: 1px solid #48d1ccaa;
+ color: white;
+}
+
+input[type="submit"] , input[type="button"] {
+ background: #20B2AA;
+ border: none;
+ border-radius: 5px;
+ padding: 10px 16px;
+ margin: 5px;
+ transition: transform 0.2s;
+ color: #e5e5e5;
+ box-shadow: 0 2px 5px black;
+}
+
+
+
