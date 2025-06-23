@@ -1,0 +1,79 @@
+::selection {
+  background: #8B0000aa;
+  color: white !important;
+}
+
+html, body {
+  background: #1a1a1a;
+  color: #e5e5e5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #8B0000;
+}
+
+p, b, i, strong, sub, sup {
+  color: #e5e5e5;
+}
+
+a {
+  color: #B22222;
+}
+
+a:hover {
+  color: #FF4500;
+}
+
+button {
+  background: #B22222;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 16px;
+  margin: 5px;
+  transition: transform 0.2s;
+  color: #e5e5e5;
+  box-shadow: 0 2px 5px black;
+}
+
+button:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover {
+  background: #FF4500cc;
+}
+
+button:active,
+input[type="submit"]:active,
+input[type="button"]:active {
+  transform: scale(0.9);
+}
+
+input {
+  background: #1a1a1a;
+  border: 2px solid #FF4500cc;
+  border-radius: 4px;
+  padding: 5px;
+  margin: 5px;
+  box-shadow: 0 2px 5px black;
+  color: #e5e5e5;
+}
+
+input::placeholder {
+  color: #e5e5e5;
+}
+
+input:focus {
+  outline: 1px solid #8B0000aa;
+  color: white;
+}
+
+input[type="submit"],
+input[type="button"] {
+  background: #B22222;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 16px;
+  margin: 5px;
+  transition: transform 0.2s;
+  color: #e5e5e5;
+  box-shadow: 0 2px 5px black;
+}
