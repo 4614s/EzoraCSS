@@ -29,6 +29,10 @@
 
 
 /*———Hizalamalar———*/
+body {
+  min-height: 100vh;
+}
+
 .ortala {
   display: flex;
   justify-content: center;
