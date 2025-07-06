@@ -48,11 +48,13 @@ body {
 }
 
 .sola-hizala {
+  display: flex;
   text-align: left;
   justify-content: flex-start;
 }
 
 .saga-hizala {
+  display: flex;
   text-align: right;
   justify-content: flex-end;
 }
